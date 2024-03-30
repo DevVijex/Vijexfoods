@@ -1,28 +1,37 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
 
-
 html {
   font-size: 22px;
 }
 
 body {
   min-height: 100vh;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
   font-family: "Arial", sans-serif;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
   background-color: #ffffff;
-  color: maroon;
+  color: #800000;
 }
 
 header h1 {
   background-color: rgb(148, 15, 15);
   color: rgb(251, 249, 246);
   text-align: center;
-  padding: 1em 0;
-  margin-bottom: 0;
+  /* padding: 1em 0; */
+  padding: 0.5rem 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+h1 img {
+  /* display: flex; */
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem;
+  border-radius: 50px;
 }
 
 header nav ul {
@@ -34,9 +43,25 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: darkblue;
+  color: hsl(240, 100%, 27%);
   text-decoration: none;
   font-weight: bold;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header figcaption {
+  display:flex;
+  font-style: italic;
+} */
+
+p {
+  color: black;
+  text-align: justify;
 }
 
 th,
@@ -48,9 +73,14 @@ caption {
   padding: 0.5rem;
 }
 
+.copy {
+  text-align: center;
+  color: rgb(251, 249, 246);
+}
+
 footer {
   background-color: rgb(235, 88, 88); /* Matching the header's vibrant purple */
   color: #ffffff;
   text-align: center;
-  padding: 1em 0;
+  padding: 10px 0;
 }
